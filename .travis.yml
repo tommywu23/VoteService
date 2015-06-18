@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.4
+  - tip
+
+install:
+  - go get github.com/gin-gonic/gin
+  - go get github.com/lib/pq
+  - go get gopkg.in/yaml.v2
